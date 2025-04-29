@@ -18,7 +18,7 @@
 
         <nav class="navbar">
             <a href="#">Inicio</a>
-            <a href="#">Nosotros</a>
+            <a href="sabermas/index.html">Nosotros</a>
             <a href="#">Contacto</a>
             <a href="#">Productos</a>
             <a href="#">Juego</a>
@@ -29,41 +29,40 @@
 
     <header class="contentheader">
         <h2 class="title">Inicio</h2>
-        <p>a Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem distinctio repudiandae explicabo nam amet, dolor, voluptatum non obcaecati consectetur ad quaerat error sit suscipit ratione odio, debitis voluptates illo facilis.</p>
+        <p>Página de infromación sobre el futbol y sus alrededores</p>
 
         <div class="btn-home">
             <a href="#" class="btn">Saber más</a>
-            <a href="#" class="btn">Otros</a>
+            <a href="creador/index.html" class="btn">Creador</a>
         </div>
     </header>
 
     <section class="contentsau">
-        <h2 class="title">Productos</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iste, inventore dolores blanditiis doloremque accusamus ad. Ad et explicabo porro vero sunt voluptatem maxime a! Consequuntur at doloremque nisi ratione.
-        </p>
+        <h2 class="title">Redes Sociales</h2>
+        <p>Estas son nuestras redes sociales donde la empresa sube contenido diariamente sobre las informaciones más exclusivas.</p>
 
         <div class="box-container">
 
             <div class="box">
                 <i class=" fab fa-instagram"></i>
-                <h3>Lorem</h3>
-                <p>labore</p>
+                <h3>Intagram </h3>
+                <p>@infofut1</p>
             </div>
         </div>
 
         <div class="box-container">
             <div class="box">
                 <i class=" fab fa-youtube"></i>
-                <h3>Lorem</h3>
-                <p>labore</p>
+                <h3>Youtube</h3>
+                <p>@INFOFUT_YT</p>
             </div>
         </div>
 
         <div class="box-container">
             <div class="box">
                 <i class=" fab fa-facebook"></i>
-                <h3>Lorem</h3>
-                <p>labore</p>
+                <h3>Facebook</h3>
+                <p>@InfoFUT.F</p>
             </div>
 
         </div>
@@ -73,8 +72,7 @@
     <section class="contentabout">
 
         <h2 class="title">Nosotros</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit quisquam distinctio totam soluta, praesentium ullam neque aliquam molestiae? Repudiandae accusantium, temporibus voluptas facilis doloremque nostrum minima sit placeat dolor praesentium?
-        </p>
+        <p>Nostros somos una empresa internacional, ya que tocamos casi todos los paises donde el futbol predomina como deporte y tenemos contactos en toda Europa y parte de Sudamérica</p>
 
         <a href="#" class="btn">Saber más</a>
 
@@ -83,11 +81,11 @@
     <section class="contentprice">
 
         <article class="container">
-            <h2 class="title">Precio</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae cupiditate inventore molestiae illum necessitatibus, blanditiis consectetur unde. Natus, quidem. Architecto perspiciatis hic commodi, quaerat optio labore quae soluta alias libero.
+            <h2 class="title">Blog</h2>
+            <p>Nuestros blogs sobre las informaciones más relevantes del futbol actualmente
             </p>
 
-            <a href="#" class="btn">Saber</a>
+            <a href="#" class="btn">Saber más</a>
 
         </article>
 
@@ -98,7 +96,47 @@
         <h2 class="title">Contacto</h2>
         <p>Nuestro Formulario</p>
 
-        <form action=""></form>
+        <form action="Fromulario" class="form">
+
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="nombre" required placeholder="completa este campo">
+
+            <label for="surname">Apellido</label>
+            <input type="text" id="surname" name="cognoms" required placeholder="completa este campo">
+
+            <label for="gmail">Correo electronico</label>
+            <input type="gmail" id="gmail" name="gmail" required placeholder="completa este campo">
+
+            <p>Intereses:</p>
+            <input type="checkbox" id="deportes" name="intereses" value="Futbol europeo">
+            <label for="deportes">Futbol europeo</label>
+            <input type="checkbox" id="deportes" name="intereses" value="Futbol Sudamericano">
+            <label for="musica">Futbol Sudamericano</label>
+            <input type="checkbox" id="deportes" name="intereses" value="No me gusta el futbol">
+            <label for="deportes">No me gusta el futbol</label>
+
+            <label for="selection-genero">Selecciona tu equipo de futbol favorito</label>
+            <select name="gen" id="seleccion-genero">
+
+                <option value="">selecciona un genero</option>
+                <option value="Real Madrid">Real Madrid</option>
+                <option value="Barça">Barça</option>
+                <option value="ATM">Atlético de Madrid</option>
+                <option value="Betis">Betis</option>
+                <option value="Sevilla">Sevilla</option>
+                <option value="Ninguno">Ninguno</option>
+            </select>
+
+            <label for="mensaje">Si no es ninguno escríbelo aquí</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+
+            <p>Te ha gustado mi página web</p>
+            <input type="checkbox" id="deportes" name="intereses" value="Futbol europeo">
+            <label for="deportes">Si</label>
+            <input type="checkbox" id="deportes" name="intereses" value="Futbol Sudamericano">
+            <label for="musica">No</label>
+
+        </form>
 
         <p>Nuestra ubicación</p>
         <figure class="map"> 

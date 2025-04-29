@@ -54,8 +54,9 @@ body {
 }
 
 .contentheader {
-    height: 60vh !important;
+    height: 60vh;
     background: url(img/fondo1.avif) no-repeat center;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -90,6 +91,7 @@ p {
 
 .btn-home {
     display: flex;
+    padding-left: 790px;
 }
 
 .btn-home a {
@@ -109,6 +111,10 @@ p {
     background: #333333;
     display: flex;
     justify-content: space-between;
+}
+
+.contentsau p{
+    padding-top: 60px;
 }
 
 .box-container {
@@ -151,9 +157,11 @@ p {
     padding: 0 15px;
 }
 
-.about {
-    background: #333333;
-
+.contentabout {
+    background: url(img/fondo3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
 }
 
 .contentprice {
@@ -167,4 +175,14 @@ p {
     padding-top: 20px;
     background: #000000;
     padding-bottom: 0;
+}
+
+.form {
+    color: white;
+    text-align:center;
+    margin: auto;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
