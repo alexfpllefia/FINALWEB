@@ -106,7 +106,7 @@ p {
     align-items: center;
 }
 
-.contentsau {
+.contentrs {
     padding: 30px;
     background: url(img/fondo1.avif) no-repeat center;
     background-size: cover;
@@ -116,7 +116,7 @@ p {
     justify-content: space-between;
 }
 
-.contentsau p{
+.contentrs p{
     padding-top: 60px;
 }
 
@@ -167,6 +167,12 @@ p {
     text-align: center;
 }
 
+.contentabout p {
+    width: 500px;
+    text-align: center;
+    padding-left: 680px;
+}
+
 .contentblog {
     background: url(img/fondo3.jpg) no-repeat center;
     background-attachment: fixed;
@@ -186,6 +192,11 @@ p {
     background-size: cover;
     text-align: center;
     padding-bottom: 0;
+}
+
+.contentcontact h3 {
+    font-size: x-large;
+    color: white;
 }
 
 .form {
