@@ -57,6 +57,7 @@ body {
     background: url(img/fondo1.avif) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
+    padding: 25px 25px;
 }
 
 .title {
@@ -114,6 +115,7 @@ p {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    padding: 25px 25px;
 }
 
 .contentrs p{
@@ -165,6 +167,7 @@ p {
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+    padding: 25px 25px;
 }
 
 .contentabout p {
@@ -178,6 +181,7 @@ p {
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
+    padding: 25px 25px;
 }
 
 .contentblog .btn {
@@ -192,6 +196,7 @@ p {
     background-size: cover;
     text-align: center;
     padding-bottom: 0;
+    padding: 25px 25px;
 }
 
 .contentcontact h3 {
