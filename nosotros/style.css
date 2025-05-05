@@ -1,0 +1,104 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+
+body {
+    text-align: center;
+    font-family: 'Avenir';
+    background: url(img/fondo4.avif) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background: url(img/banderas.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header h1 {
+    color: black;
+}
+
+header p {
+    background-color: aliceblue;
+    color: black;
+}
+
+.sedes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+    padding-top: 150px;
+}
+
+
+.españa {
+    background-color: rgb(117, 115, 115);
+    border-radius: 10%;
+    width: 300px;
+    text-align: center;
+    font-size: small;
+    box-shadow: 0px 12px 15px 10px rgb(140, 140, 143);
+    display: flex;
+    width: 500px;
+}
+
+img {
+    text-align: center;
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+}
+
+h3 {
+    padding-top: 28px;
+}
+
+.milan {
+    background-color: rgb(117, 115, 115);
+    border-radius: 10%;
+    width: 300px;
+    text-align: center;
+    font-size: small;
+    box-shadow: 0px 12px 15px 10px rgb(140, 140, 143);
+    display: flex;
+    width: 500px;
+}
+
+.munich {
+    background-color: rgb(117, 115, 115);
+    border-radius: 10%;
+    width: 300px;
+    text-align: center;
+    font-size: small;
+    box-shadow: 0px 12px 15px 10px rgb(140, 140, 143);
+    display: flex;
+    width: 500px;
+}
+
+.paris {
+    background-color: rgb(117, 115, 115);
+    border-radius: 10%;
+    width: 300px;
+    text-align: center;
+    font-size: small;
+    box-shadow: 0px 12px 15px 10px rgb(140, 140, 143);
+    display: flex;
+    width: 500px;
+    height: 200px;
+}
+
+.inglaterra {
+    background-color: rgb(117, 115, 115);
+    border-radius: 10%;
+    width: 300px;
+    text-align: center;
+    font-size: small;
+    box-shadow: 0px 12px 15px 10px rgb(140, 140, 143);
+    display: flex;
+    width: 600px;
+    height: 200px;
+}
+
