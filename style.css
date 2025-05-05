@@ -191,6 +191,10 @@ p {
 
 .contentplayers {
     color: white;
+    background: url(img/fondo3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25px 25px;
 }
 
 .contentcontact {
