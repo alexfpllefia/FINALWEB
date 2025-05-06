@@ -10,6 +10,13 @@ body {
     color: white;
 }
 
+header {
+    background: gray;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
 .jugadores {
     display: flex;
     justify-content: center;
@@ -31,7 +38,7 @@ body {
 
 .jugador img {
     text-align: center;
-    width: 250px;
+    width: 300px;
     height: auto;
     border-radius: 10%;
 }
@@ -41,9 +48,14 @@ body {
     color: white;
 }
 
-
-
-
 footer .img{
     width: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
 }
