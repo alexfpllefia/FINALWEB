@@ -26,20 +26,19 @@ p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 150px;
+    gap: 80px;
     padding-top: 150px;
 }
 
 .bdn {
     background-color: rgb(117, 115, 115);
-    border-radius: 10%;
-    width: 300px;
     text-align: center;
     font-size: small;
     box-shadow: 0px 12px 15px 10px rgb(0, 0, 0);
     display: flex;
     width: 500px;
-
+    padding: 20px;
+    border-radius: 30px;
 }
 
 .bdn img {
