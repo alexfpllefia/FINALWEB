@@ -9,3 +9,12 @@ body {
     background-size: cover;
     color: white;
 }
+
+h1 {
+    padding-top: 10px;
+    font-size: 150px;
+}
+
+footer {
+    padding-top: 150px;
+}
