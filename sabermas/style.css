@@ -57,7 +57,9 @@ p {
     color: white;
 }
 
-footer .img{
-    width: 100px;
+
+
+footer img:hover{
+    transform: translateY(-20px);
 }
 
