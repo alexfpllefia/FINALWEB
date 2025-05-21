@@ -36,7 +36,7 @@ header p {
 
 .españa {
     background-color: rgb(117, 115, 115);
-    text-align: center;
+    text-align: left;
     font-size: small;
     box-shadow: 0px 12px 15px 10px rgb(0, 0, 0);
     display: flex;
@@ -54,11 +54,12 @@ img {
 
 h3 {
     padding-top: 28px;
+    padding-left: 15px;
 }
 
 .milan {
     background-color: rgb(117, 115, 115);
-    text-align: center;
+    text-align: left;
     font-size: small;
     box-shadow: 0px 12px 15px 10px rgb(0, 0, 0);
     display: flex;
@@ -69,7 +70,7 @@ h3 {
 
 .munich {
     background-color: rgb(117, 115, 115);
-    text-align: center;
+    text-align: left;
     font-size: small;
     box-shadow: 0px 12px 15px 10px rgb(0, 0, 0);
     display: flex;
@@ -80,7 +81,7 @@ h3 {
 
 .paris {
     background-color: rgb(117, 115, 115);
-    text-align: center;
+    text-align: left;
     font-size: small;
     box-shadow: 0px 12px 15px 10px rgb(0, 0, 0);
     display: flex;
@@ -91,7 +92,7 @@ h3 {
 
 .inglaterra {
     background-color: rgb(117, 115, 115);
-    text-align: center;
+    text-align: left;
     font-size: small;
     box-shadow: 0px 12px 15px 10px rgb(0, 0, 0);
     display: flex;

@@ -44,6 +44,7 @@ body {
 
 .navbar a:hover {
     background: #333333;
+    transform: translateY(-10px);
 }
 
 .header {
@@ -91,6 +92,7 @@ p {
 
 .btn:hover {
     background: none;
+    transform: translateY(-10px);
 }
 
 .btn-home {
@@ -188,6 +190,10 @@ p {
     padding: 25px 25px;
 }
 
+.contentblog img {
+    border-radius: 5%;
+}
+
 
 
 .contentplayers {
@@ -224,6 +230,7 @@ p {
 .contentcontact button:hover {
     background-color: aqua;
     color: #000000;
+    transform: translateY(-10px);
 }
 
 .form {
@@ -253,4 +260,12 @@ footer i {
 footer i:hover {
     background-color: aqua;
     color: white;
+    transform: translateY(-10px);
+}
+
+.footer2 {
+    margin-left: 780px;
+    text-align: center;
+    font-size: medium;
+    color:aqua ;
 }
