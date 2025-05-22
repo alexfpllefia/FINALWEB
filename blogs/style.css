@@ -25,7 +25,9 @@ header {
 }
 
 .blogx {
+    border-radius: 5%;
     background: gray;
+    width: 550px;
 
 }
 
@@ -36,4 +38,9 @@ header {
 
 .blogx a:hover {
     color: black;
+}
+
+.blogx img {
+    width: 500px;
+    border-radius: 5%;
 }
